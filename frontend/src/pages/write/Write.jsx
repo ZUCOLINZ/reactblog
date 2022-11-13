@@ -2,7 +2,7 @@ import "./write.css";
 // import Writepic from "../../assets/images/everst.jpg";
 import { useContext, useState } from "react";
 import { Context } from "../../context/Context";
-import axios from "axios";
+import axios from "../../axios";
 
 const Write = () => {
   const [title, setTitle] = useState("");

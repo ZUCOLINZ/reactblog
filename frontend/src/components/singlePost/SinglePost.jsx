@@ -3,7 +3,7 @@ import "./singlePost.css";
 import { useLocation, Link } from "react-router-dom";
 import { useContext, useEffect, useState } from "react";
 import { Context } from "../../context/Context";
-import axios from "axios";
+import axios from "../../axios";
 
 const SinglePost = () => {
   const location = useLocation();

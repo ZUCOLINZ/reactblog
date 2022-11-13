@@ -2,7 +2,7 @@ import "./settings.css";
 import Sidebar from "../../components/sidebar/Sidebar";
 import { useContext, useState } from "react";
 import { Context } from "../../context/Context";
-import axios from "axios";
+import axios from "../../axios";
 import DefaultPic from "../../assets/images/person4.png";
 
 // import Profilepix from "../../assets/images/person3.jpg";

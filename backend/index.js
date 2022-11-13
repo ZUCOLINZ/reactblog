@@ -1,8 +1,11 @@
 const express = require("express");
+const cors = require("cors");
 const app = express();
 const port = 5050;
+
 //loads data from env variable
 require("dotenv").config();
+app.use(cors())
 const authRoute = require("./routes/auth");
 const userRoute = require("./routes/users");
 const postRoute = require("./routes/posts");
